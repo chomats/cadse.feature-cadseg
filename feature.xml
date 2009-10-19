@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
       id="Feature.Cadse.Cadseg"
-      label="Cadseg"
+      label="%featureName"
       version="2.3.0.qualifier"
-      provider-name="ADELE/LIG/GRENOBLE">
+      provider-name="%providerName">
 
    <description url="http://cadse.imag.fr/index.php?lang=en">
       CADSEg is a project of the Adele team, in Grenoble University (LIG), France. CADSEg is an editor and a generator for CADSEs - Computer Aided Domain Specific Engineering environments. Through dedicated editors and models, CADSEg provides support for specific CADSE definitions, i.e. the domain concepts, the mapping toward Eclipse, the interaction wizards and so on.
@@ -479,13 +479,6 @@ The goal of a CADSE is to help software developers when developing software appl
          unpack="false"/>
 
    <plugin
-         id="fr.imag.adele.packageinfo"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="fr.imag.workspace.custom.filter"
          download-size="0"
          install-size="0"
@@ -494,13 +487,6 @@ The goal of a CADSE is to help software developers when developing software appl
 
    <plugin
          id="fr.imag.adele.cadse.compatibility"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="com.sun.xml.bind"
          download-size="0"
          install-size="0"
          version="0.0.0"
