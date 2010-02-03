@@ -278,7 +278,7 @@ The goal of a CADSE is to help software developers when developing software appl
    </requires>
 
    <plugin
-         id="fr.imag.adele.cadse.as.workspace.cu"
+         id="fr.imag.adele.cadse.as.cu"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -297,91 +297,91 @@ The goal of a CADSE is to help software developers when developing software appl
          version="0.0.0"/>
 
    <plugin
-         id="fr.imag.adele.cadse.cu.workspace.workspace"
+         id="fr.imag.adele.cadse.cu.core"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="fr.imag.adele.cadse.si.melusine.eclipsefindmodel"
+         id="fr.imag.adele.cadse.si.eclipsefindmodel"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="fr.imag.adele.cadse.si.workspace.defaultclassreferencer"
+         id="fr.imag.adele.cadse.si.defaultclassreferencer"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="fr.imag.adele.cadse.si.workspace.defaultloadfactory"
+         id="fr.imag.adele.cadse.si.defaultloadfactory"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="fr.imag.adele.cadse.si.workspace.defaultoperationfactory"
+         id="fr.imag.adele.cadse.si.defaultoperationfactory"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="fr.imag.adele.cadse.si.workspace.defaultoperationfactory.nl1"
+         id="fr.imag.adele.cadse.si.defaultoperationfactory.nl1"
          download-size="0"
          install-size="0"
          version="0.0.0"
          fragment="true"/>
 
    <plugin
-         id="fr.imag.adele.cadse.si.workspace.initmodel"
+         id="fr.imag.adele.cadse.si.initmodel"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="fr.imag.adele.cadse.si.workspace.java"
+         id="fr.imag.adele.cadse.si.java"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="fr.imag.adele.cadse.si.workspace.loadall"
+         id="fr.imag.adele.cadse.si.loadall"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="fr.imag.adele.cadse.si.workspace.modelversiondbimpl"
+         id="fr.imag.adele.cadse.si.modelversiondbimpl"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="fr.imag.adele.cadse.si.workspace.persistence"
+         id="fr.imag.adele.cadse.si.persistence"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="fr.imag.adele.cadse.si.workspace.platformeclipse"
+         id="fr.imag.adele.cadse.si.platformeclipse"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="fr.imag.adele.cadse.si.workspace.view"
+         id="fr.imag.adele.cadse.si.view"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -395,70 +395,70 @@ The goal of a CADSE is to help software developers when developing software appl
          unpack="false"/>
 
    <plugin
-         id="fr.imag.adele.cadse.as.melusine.findmodel"
+         id="fr.imag.adele.cadse.as.findmodel"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="fr.imag.adele.cadse.as.workspace.classreferencer"
+         id="fr.imag.adele.cadse.as.classreferencer"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="fr.imag.adele.cadse.as.workspace.eclipse"
+         id="fr.imag.adele.cadse.as.eclipse"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="fr.imag.adele.cadse.as.workspace.initmodel"
+         id="fr.imag.adele.cadse.as.initmodel"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="fr.imag.adele.cadse.as.workspace.modelversiondbservice"
+         id="fr.imag.adele.cadse.as.modelversiondbservice"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="fr.imag.adele.cadse.as.workspace.operationfactory"
+         id="fr.imag.adele.cadse.as.operationfactory"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="fr.imag.adele.cadse.as.workspace.persistence"
+         id="fr.imag.adele.cadse.as.persistence"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="fr.imag.adele.cadse.as.workspace.platformeclipse"
+         id="fr.imag.adele.cadse.as.platformeclipse"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="fr.imag.adele.cadse.as.workspace.test"
+         id="fr.imag.adele.cadse.as.test"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="fr.imag.adele.cadse.as.workspace.loadfactory"
+         id="fr.imag.adele.cadse.as.loadfactory"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -472,7 +472,7 @@ The goal of a CADSE is to help software developers when developing software appl
          unpack="false"/>
 
    <plugin
-         id="fr.imag.adele.cadse.si.workspace.migration"
+         id="fr.imag.adele.cadse.si.migration"
          download-size="0"
          install-size="0"
          version="0.0.0"
