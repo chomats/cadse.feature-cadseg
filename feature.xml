@@ -227,8 +227,7 @@ The goal of a CADSE is to help software developers when developing software appl
       <import plugin="org.eclipse.core.runtime"/>
       <import plugin="org.eclipse.core.resources"/>
       <import plugin="org.eclipse.jdt.core" version="3.5.0" match="greaterOrEqual"/>
-      <import plugin="org.apache.felix.org.apache.felix.ipojo.manipulator"/>
-      <import plugin="org.apache.felix.org.apache.felix.ipojo.metadata"/>
+      <import plugin="org.apache.felix.ipojo"/>
       <import plugin="org.eclipse.jface"/>
       <import plugin="org.eclipse.pde.core"/>
       <import plugin="org.eclipse.ui.ide"/>
