@@ -2,7 +2,7 @@
 <feature
       id="Feature.Cadse.Cadseg"
       label="%featureName"
-      version="2.3.0.qualifier"
+      version="2.3.0.SNAPSHOT"
       provider-name="%providerName">
 
    <description url="http://cadse.imag.fr/index.php?lang=en">
@@ -224,299 +224,309 @@ The goal of a CADSE is to help software developers when developing software appl
          version="0.0.0"/>
 
    <requires>
-      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.emf.common"/>
       <import plugin="org.eclipse.core.resources"/>
+      <import plugin="org.eclipse.equinox.registry"/>
       <import plugin="org.eclipse.jdt.core" version="3.5.0" match="greaterOrEqual"/>
-      <import plugin="org.apache.felix.ipojo"/>
       <import plugin="org.eclipse.jface"/>
+      <import plugin="org.eclipse.osgi"/>
       <import plugin="org.eclipse.pde.core"/>
-      <import plugin="org.eclipse.ui.ide"/>
       <import plugin="org.eclipse.ui.workbench"/>
+      <import plugin="org.objectweb.asm"/>
       <import plugin="org.apache.ant"/>
       <import plugin="org.apache.felix.ipojo"/>
-      <import plugin="org.objectweb.asm"/>
       <import plugin="org.eclipse.osgi.services"/>
-      <import plugin="org.eclipse.ltk.core.refactoring"/>
-      <import plugin="org.eclipse.core.jobs"/>
-      <import plugin="org.eclipse.osgi"/>
-      <import plugin="org.eclipse.equinox.registry"/>
+      <import plugin="org.eclipse.core.runtime"/>
       <import plugin="org.eclipse.core.commands"/>
-      <import plugin="org.eclipse.jdt.ui"/>
-      <import plugin="org.eclipse.equinox.preferences"/>
+      <import plugin="org.eclipse.core.jobs"/>
       <import plugin="org.eclipse.emf.codegen"/>
-      <import plugin="org.eclipse.jface.text"/>
-      <import plugin="org.eclipse.swt"/>
-      <import plugin="org.eclipse.ui.editors"/>
-      <import plugin="org.eclipse.text"/>
+      <import plugin="org.eclipse.jdt.ui"/>
       <import plugin="org.eclipse.jdt.launching"/>
-      <import plugin="org.eclipse.core.expressions"/>
-      <import plugin="org.eclipse.debug.core"/>
-      <import plugin="org.eclipse.emf.common"/>
-      <import plugin="org.eclipse.ui"/>
-      <import plugin="org.eclipse.ui.ide.application"/>
-      <import plugin="org.eclipse.ant.core"/>
-      <import plugin="org.eclipse.team.svn.core"/>
-      <import plugin="org.eclipse.debug.ui"/>
-      <import plugin="org.eclipse.ui.navigator"/>
-      <import plugin="org.eclipse.search"/>
-      <import plugin="org.eclipse.team.core"/>
-      <import plugin="org.eclipse.ui.forms"/>
-      <import plugin="org.eclipse.team.cvs.core"/>
-      <import plugin="org.eclipse.ui.console"/>
-      <import plugin="org.eclipse.core.contenttype"/>
-      <import plugin="org.eclipse.emf.ecore"/>
-      <import plugin="org.eclipse.jdt.core.manipulation"/>
-      <import plugin="org.eclipse.ltk.ui.refactoring"/>
-      <import plugin="org.eclipse.pde.build"/>
-      <import plugin="org.eclipse.pde.ui"/>
-      <import plugin="org.eclipse.team.cvs.ui"/>
-      <import plugin="org.junit4"/>
+      <import plugin="org.eclipse.jface.text"/>
+      <import plugin="org.eclipse.ltk.core.refactoring"/>
+      <import plugin="org.eclipse.swt"/>
+      <import plugin="org.eclipse.text"/>
+      <import plugin="org.eclipse.ui.ide"/>
+      <import plugin="org.eclipse.ui.editors"/>
       <import plugin="org.eclipse.equinox.common"/>
+      <import plugin="org.eclipse.ui.forms"/>
+      <import plugin="org.eclipse.jdt.core.manipulation"/>
+      <import plugin="org.junit4"/>
+      <import plugin="org.eclipse.equinox.preferences"/>
+      <import plugin="org.apache.felix.ipojo.metadata"/>
+      <import plugin="javax.servlet"/>
+      <import plugin="org.apache.log4j"/>
+      <import plugin="org.eclipse.ui.views"/>
+      <import plugin="org.apache.maven.embedder"/>
       <import plugin="javax.activation" version="1.1.0" match="greaterOrEqual"/>
       <import plugin="javax.xml.stream" version="1.0.1" match="greaterOrEqual"/>
+      
    </requires>
 
    <plugin
          id="fr.imag.adele.cadse.as.cu"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
+         download-size="385"
+         install-size="385"
+         version="2.3.0.SNAPSHOT"
          unpack="false"/>
 
    <plugin
          id="fr.imag.adele.cadse.builder"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"/>
+         download-size="103"
+         install-size="103"
+         version="2.3.0.SNAPSHOT"
+         unpack="false"/>
 
    <plugin
          id="fr.imag.adele.cadse.builder.pde"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"/>
+         download-size="377"
+         install-size="377"
+         version="2.3.0.SNAPSHOT"
+         unpack="false"/>
 
    <plugin
          id="fr.imag.adele.cadse.cu.core"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
+         download-size="401"
+         install-size="401"
+         version="2.3.0.SNAPSHOT"
          unpack="false"/>
 
    <plugin
          id="fr.imag.adele.cadse.si.eclipsefindmodel"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
+         download-size="7"
+         install-size="7"
+         version="2.3.0.SNAPSHOT"
          unpack="false"/>
 
    <plugin
          id="fr.imag.adele.cadse.si.defaultclassreferencer"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
+         download-size="5"
+         install-size="5"
+         version="2.3.0.SNAPSHOT"
          unpack="false"/>
 
    <plugin
          id="fr.imag.adele.cadse.si.defaultloadfactory"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
+         download-size="9"
+         install-size="9"
+         version="2.3.0.SNAPSHOT"
          unpack="false"/>
 
    <plugin
          id="fr.imag.adele.cadse.si.defaultoperationfactory"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
+         download-size="22"
+         install-size="22"
+         version="2.3.0.SNAPSHOT"
          unpack="false"/>
 
    <plugin
-         id="fr.imag.adele.cadse.si.defaultoperationfactory.nl1"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         fragment="true"/>
-
-   <plugin
          id="fr.imag.adele.cadse.si.initmodel"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
+         download-size="39"
+         install-size="39"
+         version="2.3.0.SNAPSHOT"
          unpack="false"/>
 
    <plugin
          id="fr.imag.adele.cadse.si.java"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
+         download-size="171"
+         install-size="171"
+         version="2.3.0.SNAPSHOT"
          unpack="false"/>
 
    <plugin
          id="fr.imag.adele.cadse.si.loadall"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
+         download-size="11"
+         install-size="11"
+         version="2.3.0.SNAPSHOT"
          unpack="false"/>
 
    <plugin
-         id="fr.imag.adele.cadse.si.modelversiondbimpl"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
+         id="fr.imag.adele.cadse.si.ModelVersionDB"
+         download-size="3018"
+         install-size="3018"
+         version="2.3.0.SNAPSHOT"
          unpack="false"/>
 
    <plugin
          id="fr.imag.adele.cadse.si.persistence"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
+         download-size="76"
+         install-size="76"
+         version="2.3.0.SNAPSHOT"
          unpack="false"/>
 
    <plugin
-         id="fr.imag.adele.cadse.si.platformeclipse"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
+         id="fr.imag.adele.cadse.si.platformeEclipse"
+         download-size="21"
+         install-size="21"
+         version="2.3.0.SNAPSHOT"
          unpack="false"/>
 
    <plugin
          id="fr.imag.adele.cadse.si.view"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="Model.Workspace.CadseG"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
+         download-size="486"
+         install-size="486"
+         version="2.3.0.SNAPSHOT"
          unpack="false"/>
 
    <plugin
          id="fr.imag.adele.cadse.as.findmodel"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
+         download-size="3"
+         install-size="3"
+         version="2.3.0.SNAPSHOT"
+         unpack="false"/>
+
+   <plugin
+         id="Model.Workspace.CadseG"
+         download-size="1133"
+         install-size="1133"
+         version="2.3.0.SNAPSHOT"
          unpack="false"/>
 
    <plugin
          id="fr.imag.adele.cadse.as.classreferencer"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
+         download-size="3"
+         install-size="3"
+         version="2.3.0.SNAPSHOT"
          unpack="false"/>
 
    <plugin
          id="fr.imag.adele.cadse.as.eclipse"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
+         download-size="4"
+         install-size="4"
+         version="2.3.0.SNAPSHOT"
          unpack="false"/>
 
    <plugin
          id="fr.imag.adele.cadse.as.initmodel"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="fr.imag.adele.cadse.as.modelversiondbservice"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
+         download-size="54"
+         install-size="54"
+         version="2.3.0.SNAPSHOT"
          unpack="false"/>
 
    <plugin
          id="fr.imag.adele.cadse.as.operationfactory"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
+         download-size="4"
+         install-size="4"
+         version="2.3.0.SNAPSHOT"
+         unpack="false"/>
+
+   <plugin
+         id="fr.imag.adele.cadse.as.modelversiondbservice"
+         download-size="12"
+         install-size="12"
+         version="2.3.0.SNAPSHOT"
          unpack="false"/>
 
    <plugin
          id="fr.imag.adele.cadse.as.persistence"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
+         download-size="4"
+         install-size="4"
+         version="2.3.0.SNAPSHOT"
          unpack="false"/>
 
    <plugin
-         id="fr.imag.adele.cadse.as.platformeclipse"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
+         id="fr.imag.adele.cadse.as.platformeIDE"
+         download-size="4"
+         install-size="4"
+         version="2.3.0.SNAPSHOT"
          unpack="false"/>
 
    <plugin
          id="fr.imag.adele.cadse.as.test"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
+         download-size="4"
+         install-size="4"
+         version="2.3.0.SNAPSHOT"
          unpack="false"/>
 
    <plugin
          id="fr.imag.adele.cadse.as.loadfactory"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
+         download-size="3"
+         install-size="3"
+         version="2.3.0.SNAPSHOT"
          unpack="false"/>
 
    <plugin
-         id="fr.imag.adele.cadse.lib.adele.util.io"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
+         id="fr.imag.adele.cadse.util.io"
+         download-size="27"
+         install-size="27"
+         version="2.3.0.SNAPSHOT"
          unpack="false"/>
 
    <plugin
-         id="fr.imag.adele.cadse.si.migration"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
+         id="fr.imag.adele.cadse.custom.filter"
+         download-size="46"
+         install-size="46"
+         version="2.3.0.SNAPSHOT"
          unpack="false"/>
 
    <plugin
-         id="fr.imag.workspace.custom.filter"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
+         id="fr.imag.adele.cadse.compatility"
+         download-size="10"
+         install-size="10"
+         version="2.3.0.SNAPSHOT"
          unpack="false"/>
 
    <plugin
-         id="fr.imag.adele.cadse.compatibility"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
+         id="fr.imag.adele.cadse.si.defaultoperationfactory.nl1"
+         download-size="4"
+         install-size="4"
+         version="2.3.0.SNAPSHOT"
          unpack="false"/>
 
    <plugin
-         id="Model.Workspace.CopyComposer"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
+         id="fr.imag.adele.cadse.util"
+         download-size="15"
+         install-size="15"
+         version="2.3.0.SNAPSHOT"
+         unpack="false"/>
+
+   <plugin
+         id="fr.imag.adele.cadse.si.uiplatform.swt"
+         download-size="335"
+         install-size="335"
+         version="2.3.0.SNAPSHOT"
+         unpack="false"/>
+
+   <plugin
+         id="bak.pcj"
+         download-size="2865"
+         install-size="2865"
+         version="1.2.0.SNAPSHOT"
+         unpack="false"/>
+
+   <plugin
+         id="fr.imag.adele.cadse.si.core"
+         download-size="19"
+         install-size="19"
+         version="2.3.0.SNAPSHOT"
          unpack="false"/>
 
    <plugin
          id="CopyComposer.CADSE"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
+         download-size="71"
+         install-size="71"
+         version="2.3.0.SNAPSHOT"
          unpack="false"/>
 
    <plugin
-         id="Model.Workspace.sam.core"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
+         id="Model.Workspace.CopyComposer"
+         download-size="32"
+         install-size="32"
+         version="2.3.0.SNAPSHOT"
          unpack="false"/>
 
    <plugin
-         id="Model.Workspace.AdvancedCadseG"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
+         id="as.SCMService"
+         download-size="3"
+         install-size="3"
+         version="2.3.0.SNAPSHOT"
+         unpack="false"/>
+
+   <plugin
+         id="si.SCMService"
+         download-size="7"
+         install-size="7"
+         version="2.3.0.SNAPSHOT"
          unpack="false"/>
 
 </feature>
