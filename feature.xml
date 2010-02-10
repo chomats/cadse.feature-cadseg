@@ -235,6 +235,7 @@ The goal of a CADSE is to help software developers when developing software appl
       <import plugin="org.objectweb.asm"/>
       <import plugin="org.apache.ant"/>
       <import plugin="org.apache.felix.ipojo"/>
+      <import plugin="org.apache.felix.org.apache.felix.ipojo.metadata"/>
       <import plugin="org.eclipse.osgi.services"/>
       <import plugin="org.eclipse.core.runtime"/>
       <import plugin="org.eclipse.core.commands"/>
@@ -253,7 +254,6 @@ The goal of a CADSE is to help software developers when developing software appl
       <import plugin="org.eclipse.jdt.core.manipulation"/>
       <import plugin="org.junit4"/>
       <import plugin="org.eclipse.equinox.preferences"/>
-      <import plugin="org.apache.felix.ipojo.metadata"/>
       <import plugin="javax.servlet"/>
       <import plugin="org.apache.log4j"/>
       <import plugin="org.eclipse.ui.views"/>
