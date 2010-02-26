@@ -259,7 +259,6 @@ The goal of a CADSE is to help software developers when developing software appl
       <import plugin="org.eclipse.ui.views"/>
       <import plugin="javax.activation" version="1.1.0" match="greaterOrEqual"/>
       <import plugin="javax.xml.stream" version="1.0.1" match="greaterOrEqual"/>
-      <import plugin="org.maven.ide.components.maven_scm"/>
    </requires>
 
    <plugin
