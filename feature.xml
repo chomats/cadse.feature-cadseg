@@ -526,5 +526,11 @@ The goal of a CADSE is to help software developers when developing software appl
          install-size="7"
          version="2.3.0.SNAPSHOT"
          unpack="false"/>
+   <plugin
+         id="org.apache.xbean.xbean-reflect"
+         download-size="0"
+         install-size="0"
+         version="3.4"
+         unpack="false"/>
 
 </feature>
