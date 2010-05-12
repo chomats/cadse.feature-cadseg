@@ -436,7 +436,7 @@ The goal of a CADSE is to help software developers when developing software appl
          unpack="false"/>
 
    <plugin
-         id="fr.imag.adele.cadse.as.loadfactory"
+         id="fr.imag.adele.cadse.as.loadservice"
          download-size="3"
          install-size="3"
          version="2.3.0.SNAPSHOT"
