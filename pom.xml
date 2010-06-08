@@ -7,10 +7,10 @@
 	<version>2.3.0-SNAPSHOT</version>
 	<packaging>eclipse-feature</packaging>
 	<parent>
-		<artifactId>fr.imag.adele.cadse.parent.osgi</artifactId>
+		<artifactId>fr.imag.adele.cadse.parent.feature</artifactId>
 		<groupId>fr.imag.adele.cadse</groupId>
 		<version>2.3.0-SNAPSHOT</version>
-		<relativePath>../fr.imag.adele.cadse.parent.osgi</relativePath>
+		<relativePath>../fr.imag.adele.cadse.parent.feature</relativePath>
 	</parent>
 
 	<dependencies>
@@ -272,29 +272,5 @@
 			<scope>runtime</scope>
 		</dependency>
 	</dependencies>
-	
-	<profiles>
-		<profile>
-			<id>update-site</id>
-			<build>
-				<plugins>
-					<plugin>
-						<groupId>fr.imag.adele.maven</groupId>
-						<artifactId>maven-eclipse-plugin</artifactId>
-						<version>0.8-SNAPSHOT</version>
-						<extensions>true</extensions>
-						<executions>
-							<execution>
-								<goals>
-									<goal>package-feature-source</goal>
-								</goals>
-							</execution>
-						</executions>
-					</plugin>
-				</plugins>
-			</build>
-		</profile>
-	</profiles>
-	
 </project>
 
