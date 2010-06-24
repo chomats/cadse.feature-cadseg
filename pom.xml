@@ -271,8 +271,7 @@
 			<groupId>fr.imag.adele.cadse</groupId>
 			<artifactId>com.google.collections</artifactId>
 			<version>1.0-SNAPSHOT</version>
-			<type>bundle</type>
-			<scope>compile</scope>
+			<scope>runtime</scope>
 		</dependency>
 	</dependencies>
 </project>
