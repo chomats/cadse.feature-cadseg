@@ -238,13 +238,13 @@
 		</dependency>
 		<dependency>
 			<groupId>fr.imag.adele.cadse</groupId>
-			<artifactId>fr.imag.adele.cadse.as.scmservice</artifactId>
+			<artifactId>as.scmservice</artifactId>
 			<version>2.3.0-SNAPSHOT</version>
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
 			<groupId>fr.imag.adele.cadse</groupId>
-			<artifactId>fr.imag.adele.cadse.si.scmservice</artifactId>
+			<artifactId>si.scmservice</artifactId>
 			<version>2.3.0-SNAPSHOT</version>
 			<scope>runtime</scope>
 		</dependency>
