@@ -256,7 +256,6 @@ The goal of a CADSE is to help software developers when developing software appl
       <import plugin="org.eclipse.equinox.preferences"/>
       <import plugin="javax.servlet"/>
       <import plugin="org.eclipse.ui.views"/>
-      <import plugin="javax.xml.stream" version="1.0.1" match="greaterOrEqual"/>
    </requires>
 
    <plugin
