@@ -4,7 +4,7 @@
 	<groupId>fr.imag.adele.cadse</groupId>
 	<artifactId>Feature.Cadse.Cadseg</artifactId>
 	<name>Feature.Cadse.Cadseg</name>
-	<version>2.3.2</version>
+	<version>2.3.3-SNAPSHOT</version>
 	<packaging>eclipse-feature</packaging>
 	<parent>
 		<artifactId>fr.imag.adele.cadse.parent.feature</artifactId>
