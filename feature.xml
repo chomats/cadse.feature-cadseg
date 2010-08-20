@@ -2,7 +2,7 @@
 <feature
       id="Feature.Cadse.Cadseg"
       label="%featureName"
-      version="2.3.0.SNAPSHOT"
+      version="2.3.3.SNAPSHOT"
       provider-name="%providerName">
 
    <description url="http://cadse.imag.fr/index.php?lang=en">
@@ -522,6 +522,7 @@ The goal of a CADSE is to help software developers when developing software appl
          install-size="7"
          version="2.3.0.SNAPSHOT"
          unpack="false"/>
+
    <plugin
          id="org.apache.xbean.xbean-reflect"
          download-size="0"
